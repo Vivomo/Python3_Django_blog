@@ -1,2 +1,2 @@
-# python_Django_blog
-python3+Django搭建博客
+# Python_Django_blog
+Python3+Django搭建博客
