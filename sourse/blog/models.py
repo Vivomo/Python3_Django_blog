@@ -9,3 +9,9 @@ class Article(models.Model):
     content = models.TextField()
     create_time = models.DateTimeField(default=datetime.now, verbose_name='创建时间')
     update_time = models.DateTimeField(default=datetime.now, verbose_name='更新时间')
+
+    class Meta:
+        verbose_name = '博客'
+        verbose_name_plural = verbose_name
+
+
