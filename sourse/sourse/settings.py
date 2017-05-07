@@ -15,6 +15,7 @@ import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# marked
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 sys.path.insert(1, os.path.join(BASE_DIR, 'extra_apps'))
 
@@ -32,7 +33,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# marked
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -77,7 +78,7 @@ WSGI_APPLICATION = 'sourse.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
-
+# marked
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -108,6 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
+# marked
 
 LANGUAGE_CODE = 'zh-hans'
 
